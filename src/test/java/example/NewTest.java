@@ -15,7 +15,7 @@ public class NewTest {
 	private WebDriver driver;
 	
   @Test
-  public void testEasy() {
+  public void testTitle() {
 	  driver.get("http://www.guru99.com/selenium-tutorial.html");
 	  String title = driver.getTitle();
 	  AssertJUnit.assertTrue(title.contains("Free Selenium Tutorials"));
